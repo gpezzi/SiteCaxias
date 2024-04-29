@@ -7,24 +7,63 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
             margin: 0;
             padding: 0;
-            display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
         }
-        .container {
-            text-align: center;
+        #background {
+            height: 865px;
+            width: 100%;
+        }
+        #menu {
+            background-color: #8C0051;
+            height: 10%;
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 15px;
+            display: flex;
+        }
+        #menu ul li {
+            margin-right: 50px;
+        }
+        #menu ul li:last-child {
+            margin-right: 0;
+        }
+        #menu a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #account-symbol {
+            color: #fff;
+            font-size: 25px;
+            cursor: pointer;
+        }
+        #inicio a {
+            color: #888;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Bem-vindo à Homepage</h1>
-        <p>testando</p>
-        <a href="index.html">Voltar para a página de login</a>
+    <div id="menu">
+        <ul>
+            <li id="inicio"><a href="#">INÍCIO</a></li>
+            <li><a href="classificacao.html" id="classificacao">CLASSIFICAÇÃO</a></li>
+            <li><a href="elenco.html" id="elenco">ELENCO</a></li>
+        </ul>
+        <div id="account-symbol">&#9776;</div>
+    </div>
+    <div>
+        <img id="background" src="imagens/torcida_caxias2.png" alt="Torcida S.E.R. Caxias do Sul">
     </div>
 </body>
 </html>
