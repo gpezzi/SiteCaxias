@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - S.E.R. Caxias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+        }
+        #background {
+            height: 865px;
+            width: 100%;
+        }
+        #menu {
+            background-color: #8C0051;
+            height: 10%;
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+        }
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 15px;
+            display: flex;
+        }
+        #menu ul li {
+            margin-right: 50px;
+        }
+        #menu ul li:last-child {
+            margin-right: 0;
+        }
+        #menu a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #account-symbol {
+            background-image: url('imagens/perfil.png');
+            cursor: pointer;
+        }
+        #inicio a {
+            color: #888;
+        }
+        #bottom-menu {
+            background-color: #fff;
+            height: 100px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li id="inicio"><a href="#">INÍCIO</a></li>
+            <li><a href="classificacao.html" id="classificacao">CLASSIFICAÇÃO</a></li>
+            <li><a href="elenco.html" id="elenco">ELENCO</a></li>
+        </ul>
+        <div id="account-symbol"></div>
+    </div>
+    <div>
+        <img id="background" src="imagens/torcida_caxias2.png" alt="Torcida S.E.R. Caxias do Sul">
+    </div>
+    <div id="bottom-menu">
+
+    </div>
+</body>
+</html>

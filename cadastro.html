@@ -56,6 +56,11 @@
             cursor: pointer;
             margin-left: 225px;
         }
+        #hyperlink {
+            font-size: 15px;
+            margin-top: 15px;
+            color: #0071BC;
+        }
     </style>
 </head>
 <body>
@@ -69,10 +74,11 @@
             <input type="password" name="confirm_password" placeholder="Confirmar Senha" required>
             <button type="button" onclick="submitForm()">CRIAR CONTA</button>
         </form>
+        <a id="hyperlink" href="index.html">Voltar</a>
     </div>
     <script>
         function submitForm() {
-            window.location.href = "homepage.html";
+            window.location.href = "inicio.html";
         }
     </script>
 </body>
